@@ -1,0 +1,23 @@
+#hp-logo {
+    max-width: 25% !important;
+}
+
+@media screen and (max-width: 860px) {
+
+    #hp-logo {
+        max-width: 50% !important;
+    }
+
+}
+
+#main #wrapper h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+.memphis {
+    max-width: 200px;
+}
+
+.inv-content {
+    margin-left: 20px;
+}

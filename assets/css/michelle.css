@@ -1,0 +1,58 @@
+#nav {
+  display: block !important;
+}
+
+#intro {
+  margin-top: 100px;
+}
+
+#hp-logo {
+    max-width: 25% !important;
+}
+
+@media screen and (max-width: 860px) {
+
+    #hp-logo {
+        max-width: 50% !important;
+    }
+
+}
+
+#main #wrapper h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+.memphis {
+    max-width: 200px;
+}
+
+.inv-content {
+    margin-left: 20px;
+}
+
+.job-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.job-content {
+  flex: 1 1 auto;
+  flex-basis: 60%;
+}
+
+@media screen and (max-width: 1400px) {
+  .job-content {
+    flex: 1 1 auto;
+    flex-basis: 100%;
+  }
+}
+
+.job-ad {
+  flex: 1 0 auto;
+}
+
+.job-ad img {
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+}
